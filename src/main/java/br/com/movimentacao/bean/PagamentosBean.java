@@ -17,7 +17,7 @@ import com.google.gson.JsonObject;
  * */
 public class PagamentosBean {
 
-	 private String data;
+	 	private String data;
 	    private String descricao;
 	    private String moeda;
 	    private String valor;
@@ -137,4 +137,5 @@ public class PagamentosBean {
 	        osw.write(jsonObjetoPagamento.toString());
 			System.out.println("Objeto adicionado a API");
 	    }
+
 }

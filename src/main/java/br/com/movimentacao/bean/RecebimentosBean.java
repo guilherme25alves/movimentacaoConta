@@ -15,9 +15,9 @@ import com.google.gson.JsonObject;
  *  Classe modelo para movimentações de recebimentos do cliente
  * 
  * */
-public class RecebimentosBean {
+public class RecebimentosBean{
 
-	 private String data;
+	 	private String data;
 	    private String descricao;
 	    private String moeda;
 	    private String valor; 
@@ -140,6 +140,7 @@ public class RecebimentosBean {
 				conn.disconnect(); */
 	    
 	    }
+
 	    
 	
 }
